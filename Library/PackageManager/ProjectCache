@@ -5,16 +5,16 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638177678435900659
-    m_Hash: 2145504296
+      ticks: 638178650640257563
+    m_Hash: 4054852211
   m_LockFileStatus:
     m_FilePath: E:/Git/Repository/AlarmSystem/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638177678436080193
-    m_Hash: 1304693915
+      ticks: 638178650640257563
+    m_Hash: 2419606783
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_PackageAssets:
