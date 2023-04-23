@@ -5,6 +5,8 @@ using UnityEngine.Events;
 
 public class AlarmTriger : MonoBehaviour
 {
+    public UnityAction<bool> IsOpen;
+
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if(collision.TryGetComponent<Player>(out Player player))
@@ -21,5 +23,4 @@ public class AlarmTriger : MonoBehaviour
         }
     }
 
-    public UnityAction<bool> IsOpen;
 }

@@ -11,17 +11,7 @@ public class Alarm : MonoBehaviour
 
     private Coroutine _changeVolue = null;
 
-    private void OnEnable()
-    {
-        _alarmTriger.IsOpen += OnIsHome;
-    }
-
-    private void OnDisable()
-    {
-        _alarmTriger.IsOpen -= OnIsHome;
-    }
-
-    private void OnIsHome(bool flag)
+    private void OnIsOpen(bool flag)
     {
         if (_changeVolue != null)
         {
@@ -29,6 +19,16 @@ public class Alarm : MonoBehaviour
         }
 
         _changeVolue = StartCoroutine(ChangeVolume(flag));
+    }
+
+    private void OnEnable()
+    {
+        _alarmTriger.IsOpen += OnIsOpen;
+    }
+
+    private void OnDisable()
+    {
+        _alarmTriger.IsOpen -= OnIsOpen;
     }
 
     private IEnumerator ChangeVolume(bool flag)
