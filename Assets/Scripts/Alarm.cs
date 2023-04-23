@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -33,7 +34,7 @@ public class Alarm : MonoBehaviour
     private IEnumerator ChangeVolume(bool flag)
     {
         var waitForFixedUpdate = new WaitForFixedUpdate();
-        int _requiredValue = flag? 1 : 0;
+        int _requiredValue = flag? (Convert.ToInt32(true)) : (Convert.ToInt32(false));
 
         if(_audioSource.isPlaying == false && flag == true)
         {
