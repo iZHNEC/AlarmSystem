@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{0D2799D3-3163-8080-1240-5CFE311EA838}</ProjectGuid>
+    <ProjectGuid>{957A0BA2-348D-8342-DDD5-A6804E50C69A}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -56,7 +56,7 @@
     <Analyzer Include="C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Scripts\SoundControl.cs" />
+    <Compile Include="Assets\Scripts\AlarmSystem.cs" />
     <Compile Include="Assets\Scripts\ControlerPlayer.cs" />
     <Compile Include="Assets\Scripts\AlarmTriger.cs" />
     <Compile Include="Assets\Scripts\Player.cs" />
