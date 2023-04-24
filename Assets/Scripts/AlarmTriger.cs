@@ -22,5 +22,4 @@ public class AlarmTriger : MonoBehaviour
             IsOpen?.Invoke(false);
         }
     }
-
 }
